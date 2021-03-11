@@ -161,17 +161,27 @@ span{
 }
 
 .textleftsection4{
-    margin-right: 30px;
+    margin-right: 10%;
+    margin-top: 40px;
     color: white;
 }
 
-.kayla{
-    
-    
+
+.containersection4 h2{
+    font-size: 27px;
+    line-height: 40px;
 }
+
+.containersection4 p{
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 22px;
+    margin-bottom: 41px;
+}
+
+
 .containersection4 img{
     width: 100%;
-
 }
 
 
