@@ -13,12 +13,14 @@ button{
     background: #01996d;
     border:1px solid #01996d;
     border-radius: 4px;
+}
 
+a{
+    text-decoration: none;
 }
 
 
-
-
+/* HEADER */
 .containerheader{
 display: flex;
 justify-content: space-between;
@@ -26,8 +28,6 @@ height: 50px;
 background-color:white;
 padding:10px 60px;
 }
-
-
 
 header a{
     padding-right: 25px;
@@ -42,27 +42,23 @@ header a{
     height: 30px;
 }
 
-.find{
-    width: 140px;
-    height: 30px;
-}
 
 
+
+/* SECTION1 */
 .section1{
     position: relative;
     background: url('../img/womanwithhandsonhead.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 590px;
+    height: 558px;
 }
-
 
 .containersection1{
 position: relative;
     top: 15%;
     left: 7%;
 }
-
 
 h1{
     font-size: 36px;
@@ -77,4 +73,109 @@ h1{
     width: 390px;
     height: 107px;
     line-height: 21px;
+}
+
+.find{
+    width: 140px;
+    height: 30px;
+}
+
+
+
+
+/* SECTION2 */
+.containersection2{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.lefttext{
+width:45% ;
+}
+
+.lefttext h2{
+    font-size: 27px;
+    height: 148px;
+    line-height: 40px;
+    color: #01996d;
+}
+
+.righttext{
+width: 55%;
+}
+
+/* SECTION3 */
+
+.containersection3{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 60px;
+}
+
+span{
+    color:rgba(1, 153, 109, 0.2);
+        font-size: 100px;
+        color: #01996d23;
+}
+
+.containersection3 img{
+    width: 100%;
+}
+
+.personalize{
+    width: 30%;
+}
+
+.write{
+    width: 30%;
+    padding-top: 178px;
+}
+
+.alivio{
+    width: 30%;
+    padding-top: 33px;
+}
+
+
+.containersection3 h3{
+    padding-left: 19%;
+    margin-top: -36px;
+}
+
+.containersection3 p{
+    font-size: 16px;
+    height: 170px;
+    line-height: 24px;
+    padding-top: 24px;
+}
+
+
+/* SECTION4 */
+.containersection4{
+    height:500px;
+    background: #245852;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+.kayla{
+    
+    width: 50%;
+}
+
+
+/* SECTION5 */
+
+
+
+
+/* FOOTER */
+
+footer{
+    height: 300px;
+    background-color: #245852;
 }
