@@ -1,0 +1,64 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: url('../img/Pointer.svg'),pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background: #01996d;
+    border:1px solid #01996d;
+    border-radius: 4px;
+
+}
+
+
+
+
+.containerheader{
+display: flex;
+justify-content: space-between;
+height: 40px;
+background-color:white;
+padding:10px 60px;
+}
+
+
+
+header a{
+    padding-right: 25px;
+}
+
+.headerright{
+    margin-top: -5px;
+}
+
+.start{
+    width: 125px;
+    height: 30px;
+}
+
+.find{
+    width: 140px;
+    height: 30px;
+}
+
+
+.section1{
+    background: url('../img/womanwithhandsonhead.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 590px;
+}
+
+h1{
+    font-size: 60px;
+    width: 420px;
+    height: 148px;
+    line-height: 65px; 
+    color: #01996d;
+}
