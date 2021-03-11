@@ -22,7 +22,7 @@ button{
 .containerheader{
 display: flex;
 justify-content: space-between;
-height: 40px;
+height: 50px;
 background-color:white;
 padding:10px 60px;
 }
@@ -49,16 +49,32 @@ header a{
 
 
 .section1{
+    position: relative;
     background: url('../img/womanwithhandsonhead.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 590px;
 }
 
+
+.containersection1{
+position: relative;
+    top: 15%;
+    left: 7%;
+}
+
+
 h1{
-    font-size: 60px;
+    font-size: 36px;
     width: 420px;
     height: 148px;
-    line-height: 65px; 
+    line-height: 50px;
     color: #01996d;
+}
+
+.containersection1 p{
+    font-size: 11px;
+    width: 390px;
+    height: 107px;
+    line-height: 21px;
 }
