@@ -45,7 +45,7 @@ header a{
 
 
 
-/* SECTION1 */
+/* SECTION 1 BE AWARE MANAGE WELL */
 .section1{
     position: relative;
     background: url('../img/womanwithhandsonhead.jpg');
@@ -83,7 +83,7 @@ h1{
 
 
 
-/* SECTION2 */
+/* SECTION 2 UNDERSTAND AND RELEASE */
 .containersection2{
     display: flex;
     margin-left: 7%;
@@ -105,11 +105,11 @@ width:45% ;
 width: 55%;
 }
 
-/* SECTION3 */
+/* SECTION 3 PERSONALIZE/WRITE AND UNDERSTAND/ALIVIO */
 
 .containersection3{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 60px;
@@ -153,22 +153,29 @@ span{
 }
 
 
-/* SECTION4 */
+/* SECTION 4 KAYLA'S STORY */
 .containersection4{
-    height:500px;
-    background: #245852;
     display: flex;
-    justify-content:space-between;
-    margin-top: 10px;
+    background: #245852;
+    padding: 70px;
+}
+
+.textleftsection4{
+    margin-right: 30px;
+    color: white;
 }
 
 .kayla{
     
-    width: 50%;
+    
+}
+.containersection4 img{
+    width: 100%;
+
 }
 
 
-/* SECTION5 */
+/* SECTION 5 WE MAKE YOUR DIARY */
 
 
 
@@ -178,4 +185,10 @@ span{
 footer{
     height: 300px;
     background-color: #245852;
+    position: relative;
+}
+
+footer nav{
+    
+    display: block;
 }
