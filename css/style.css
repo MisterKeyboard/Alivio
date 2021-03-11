@@ -13,6 +13,7 @@ button{
     background: #01996d;
     border:1px solid #01996d;
     border-radius: 4px;
+    color: white;
 }
 
 a{
@@ -22,15 +23,17 @@ a{
 
 /* HEADER */
 .containerheader{
-display: flex;
-justify-content: space-between;
-height: 50px;
-background-color:white;
-padding:10px 60px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:white;
+    padding:10px 60px;
 }
 
 header a{
     padding-right: 25px;
+    color:#292929;
+    ;
 }
 
 .headerright{
@@ -91,7 +94,7 @@ h1{
 }
 
 .lefttext{
-width:45% ;
+    width:45% ;
 }
 
 .lefttext h2{
@@ -102,7 +105,7 @@ width:45% ;
 }
 
 .righttext{
-width: 55%;
+    width: 55%;
 }
 
 /* SECTION 3 PERSONALIZE/WRITE AND UNDERSTAND/ALIVIO */
@@ -117,8 +120,8 @@ width: 55%;
 
 span{
     color:rgba(1, 153, 109, 0.2);
-        font-size: 100px;
-        color: #01996d23;
+    font-size: 100px;
+    color: #01996d23;
 }
 
 .containersection3 img{
@@ -187,18 +190,91 @@ span{
 
 /* SECTION 5 WE MAKE YOUR DIARY */
 
+.containersection5{
+    display: flex;
+    padding-top: 70px;
+    padding-left: 13%;
+    padding-bottom: 140px;
+    padding-right: 5%;
+    height: 700px;
+}
 
 
+
+.photobustmikayla{
+    width: 100%;
+}
+
+.mikaylaprofil{
+    width: 63%;
+    height: 273px;
+    margin-left: -31%;
+    margin-top: 296px;
+    box-shadow: 1px 1px 12px #aaa;
+    border-radius: 3.72971px;
+    background-color: white;
+    line-height: 35px;
+}
+
+
+
+
+.photoportraitmikayla{
+    border-radius: 50px;
+    width: 21%;
+}
+
+.line{
+    width: 3%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textalign{
+    text-align: center;
+}
+
+.containersection5 ul{
+    margin-left: 22%;
+    font-size: 12px;
+    line-height: 33px;
+
+}
+
+.photoportraitmikayla{
+    width: 17%;
+    background: rgba(1, 153, 109, 0.2);
+    clip-path: ellipse(50% 50%);
+}
+
+.containersection5 h2{
+    font-size: 31px;
+    height: 109px;
+    line-height: 47px;
+    color: #01996d;
+}
+
+
+
+.textsection5{
+    font-size: 11px;
+    width: 90%;
+    height: 107px;
+    line-height: 21px;
+}
 
 /* FOOTER */
 
 footer{
     height: 300px;
     background-color: #245852;
-    position: relative;
+
 }
 
-footer nav{
-    
-    display: block;
+h5{
+    color: white;
+}
+
+footer a{
+    color: white;
 }
