@@ -80,7 +80,8 @@ h1{
 
 .find{
     width: 140px;
-    height: 30px;
+
+    height:  40px;
 }
 
 
@@ -118,11 +119,12 @@ h1{
     margin-bottom: 60px;
 }
 
-span{
+.containersection3 span{
     color:rgba(1, 153, 109, 0.2);
     font-size: 100px;
     color: #01996d23;
 }
+
 
 .containersection3 img{
     width: 100%;
@@ -182,27 +184,26 @@ span{
     margin-bottom: 41px;
 }
 
-
 .containersection4 img{
     width: 100%;
 }
 
 
-/* SECTION 5 WE MAKE YOUR DIARY */
 
+
+/* SECTION 5 WE MAKE YOUR DIARY */
 .containersection5{
     position: relative;
-    padding-top: 70px;
-    padding-right: 5%;
-    padding-bottom: 140px;
-    padding-left: 13%;
-    height: 700px;
+    height: 588px;
 }
 
     /* PHOTO BUST AND TEXT ON THE RIGHT */
 
 .busttext{
     display: flex;
+    padding-top: 100px;
+    padding-right: 5%;
+    padding-left: 10%;
 }
 
 .photobustmikayla{
@@ -210,8 +211,6 @@ span{
     border-radius: 12px;
 }
 
-
-_
 .textsection5{
     font-size: 11px;
     width: 90%;
@@ -227,9 +226,7 @@ _
 }
 
 
-.containersection5 button{
-    margin-top: 35px;
-}
+
 
 
 
@@ -237,34 +234,57 @@ _
 
 .mikaylaprofil{
     position: absolute;
-    width: 25%;
-    height: 244px;
+    width: 19%;
+    height: 173px;
     box-shadow: 1px 1px 12px #aaa;
     border-radius: 3.72971px;
     background-color: white;
     line-height: 35px;
+    margin-top: -122px;
+    margin-left: 4%;
 }
 
-.line{
-    width: 3%;
-    text-align: center;
-    margin-bottom: 30px;
+.mikaylaprofil span{
+    font-size: 11px;
 }
+
+.customized{
+    margin-top: 11px;
+margin-bottom: 5px;
+}
+
+.mikaylaprofil p{
+    font-size: 9px;
+    line-height: 3px;
+}
+
 
 .textalign{
-    text-align: center;
+    text-align:center;
 }
 
 .photoportraitmikayla{
     background: rgba(1, 153, 109, 0.2);
     border-radius: 50px;
-    width: 9%;
+    width: 18%;
+    margin-left: 41%;
+    margin-top: 10px;
+}
+
+figcaption{
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.mikaylaprofil h4{
+    font-size: 11px;
+    line-height: 22px;
 }
 
 .containersection5 ul{
     margin-left: 22%;
-    font-size: 12px;
-    line-height: 33px;
+    font-size: 10px;
+    line-height: 18px;
 }
 
 
