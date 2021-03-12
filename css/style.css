@@ -1,0 +1,314 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: url('../img/greencursor.png'),pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background: #01996d;
+    border:1px solid #01996d;
+    border-radius: 4px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.containerheader{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:white;
+    padding:10px 60px;
+}
+
+header a{
+    padding-right: 25px;
+    color:#292929;
+    ;
+}
+
+.headerright{
+    margin-top: -5px;
+}
+
+.start{
+    width: 125px;
+    height: 30px;
+}
+
+
+
+
+/* SECTION 1 BE AWARE MANAGE WELL */
+.section1{
+    position: relative;
+    background: url('../img/womanwithhandsonhead.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 558px;
+}
+
+.containersection1{
+position: relative;
+    top: 15%;
+    left: 7%;
+}
+
+h1{
+    font-size: 36px;
+    width: 420px;
+    height: 148px;
+    line-height: 50px;
+    color: #01996d;
+}
+
+.containersection1 p{
+    font-size: 11px;
+    width: 390px;
+    height: 107px;
+    line-height: 21px;
+}
+
+.find{
+    width: 140px;
+
+    height:  40px;
+}
+
+
+
+
+/* SECTION 2 UNDERSTAND AND RELEASE */
+.containersection2{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.lefttext{
+    width:45% ;
+}
+
+.lefttext h2{
+    font-size: 27px;
+    height: 148px;
+    line-height: 40px;
+    color: #01996d;
+}
+
+.righttext{
+    width: 55%;
+}
+
+/* SECTION 3 PERSONALIZE/WRITE AND UNDERSTAND/ALIVIO */
+
+.containersection3{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 60px;
+}
+
+.containersection3 span{
+    color:rgba(1, 153, 109, 0.2);
+    font-size: 100px;
+    color: #01996d23;
+}
+
+
+.containersection3 img{
+    width: 100%;
+}
+
+.personalize{
+    width: 30%;
+}
+
+.write{
+    width: 30%;
+    padding-top: 178px;
+}
+
+.alivio{
+    width: 30%;
+    padding-top: 33px;
+}
+
+
+.containersection3 h3{
+    padding-left: 19%;
+    margin-top: -36px;
+}
+
+.containersection3 p{
+    font-size: 16px;
+    height: 170px;
+    line-height: 24px;
+    padding-top: 24px;
+}
+
+
+/* SECTION 4 KAYLA'S STORY */
+.containersection4{
+    display: flex;
+    background: #245852;
+    padding: 70px;
+}
+
+.textleftsection4{
+    margin-right: 10%;
+    margin-top: 40px;
+    color: white;
+}
+
+
+.containersection4 h2{
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.containersection4 p{
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 22px;
+    margin-bottom: 41px;
+}
+
+.containersection4 img{
+    width: 100%;
+}
+
+
+
+
+/* SECTION 5 WE MAKE YOUR DIARY */
+.containersection5{
+    position: relative;
+    height: 588px;
+}
+
+    /* PHOTO BUST AND TEXT ON THE RIGHT */
+
+.busttext{
+    display: flex;
+    padding-top: 100px;
+    padding-right: 5%;
+    padding-left: 10%;
+}
+
+.photobustmikayla{
+    width: 89%;
+    border-radius: 12px;
+}
+
+.textsection5{
+    font-size: 11px;
+    width: 90%;
+    height: 107px;
+    line-height: 21px;
+}
+
+.containersection5 h2{
+    font-size: 31px;
+    height: 109px;
+    line-height: 47px;
+    color: #01996d;
+}
+
+
+
+
+
+
+        /* PROFIL */
+
+.mikaylaprofil{
+    position: absolute;
+    width: 19%;
+    height: 173px;
+    box-shadow: 1px 1px 12px #aaa;
+    border-radius: 3.72971px;
+    background-color: white;
+    line-height: 35px;
+    margin-top: -122px;
+    margin-left: 4%;
+}
+
+.mikaylaprofil span{
+    font-size: 11px;
+}
+
+.customized{
+    margin-top: 11px;
+margin-bottom: 5px;
+}
+
+.mikaylaprofil p{
+    font-size: 9px;
+    line-height: 3px;
+}
+
+
+.textalign{
+    text-align:center;
+}
+
+.photoportraitmikayla{
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 50px;
+    width: 18%;
+    margin-left: 41%;
+    margin-top: 10px;
+}
+
+figcaption{
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.mikaylaprofil h4{
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.containersection5 ul{
+    margin-left: 22%;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    height: 300px;
+    background-color: #245852;
+padding-top: 40px;
+padding-left: 15%;
+}
+
+
+h5{
+    color: white;
+    font-size: 14px;
+    line-height: 45px;
+    margin-left: 1%;
+}
+
+footer a{    
+    color: white;
+    display: block;
+    font-size: 12px;
+    line-height: 33px;
+}

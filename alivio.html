@@ -11,12 +11,12 @@
 <body>
     <!-- *********       HEADER             ********** -->
     <header>
-        <div>
+        <div class="containerheader">
             <div>
                 <img src="./img/Logo.svg" alt="Be aware">
             </div>
 
-            <nav>
+            <nav class="navheader">
                 <a href="#section1">Why Alivio</a>
                 <a href="#section3">Solutions</a>
                 <a href="#section4">Community</a>
@@ -24,9 +24,9 @@
                     target="_blank">Pricing</a>
             </nav>
 
-            <div>
+            <div class="headerright">
                 <a href="#section8">Sign in </a>
-                <button onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
+                <button class="start" onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
                     Start Trial</button>
             </div>
         </div>
@@ -34,16 +34,13 @@
 
     <main>
         <!-- *********       SECTION 1 BE AWARE MANAGE WELL             ********** -->
-        <section class="section1">
-            <div>
-                <div class="container-section-1">
-                    <h1>Be aware,Manage well.</h1>
-                    <p>Everyone experiences stress in different ways.
-                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-
-                    <button onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
-                        Find Your Way</button>
-                </div>
+        <section id="section1">
+            <div class="containersection1">
+                <h1>Be aware,<br>Manage well.</h1>
+                <p>Everyone experiences stress in different ways.<br>Let Alivio guide you, in a personalized
+                    journal<br>experience, to overcome your stress.</p>
+                <button class="find" onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
+                    Find Your Way</button>
             </div>
         </section>
 
@@ -51,16 +48,16 @@
 
 
         <!-- *********       SECTION 2 UNDERSTAND AND RELEASE             ********** -->
-        <section class="section2">
-            <div>
-                <div>
+        <section id="section2">
+            <div class="containersection2">
+                <div class="lefttext">
                     <p>How it works</p>
-                    <h1>Understand & Release the stress in 3 steps</h1>
+                    <h2>Understand & Release the stress in 3 steps</h2>
                 </div>
-                <div>
-                    <p>Alivio offers as many journals it takes, tackling different areas such as anxiety,
-                        overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware
-                        of your emotions, and guide you in how to manage stress.</p>
+                <div class="righttext">
+                    <p>Alivio offers as many journals it takes, tackling different areas such as
+                        anxiety,overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become
+                        aware of your emotions, and guide you in how to manage stress.</p>
                 </div>
             </div>
         </section>
@@ -69,9 +66,9 @@
 
 
         <!-- *********    SECTION 3 PERSONALIZE/WRITE AND UNDERSTAND/ALIVIO           ********** -->
-        <section class="section3">
-            <div>
-                <div>
+        <section id="section3">
+            <div class="containersection3">
+                <div class="personalize">
                     <span>01</span>
                     <h3>Personalize</h3>
                     <p>Answer a quick survey about how you express yourself, what causes you stress, and what area would
@@ -81,7 +78,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="write">
                     <span>02</span>
                     <h3>Write & Understand</h3>
                     <p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you
@@ -91,9 +88,9 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="alivio">
                     <span>03</span>
-                    <h3>Alivio</h3>
+                    <h3>Alivio!</h3>
                     <p>Now you are aware, and have a way to manage and overcome your own stress.
                         What are you waiting for? Alivio today!</p>
                     <div class="img">
@@ -108,15 +105,17 @@
 
         <!-- *********       SECTION 4 KAYLA'S STORY             ********** -->
 
-        <section class="section4">
-            <div>
-                <h2>Let's hear about Kayla's success story</h2>
-                <p> See how well Alivio works in a real customer's life.</p>
-                <button onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
-                    Let's get started</button>
-            </div>
-            <div>
-                <img src="./img/kayla.jpg" alt="Kayla is smiling">
+        <section id="section4">
+            <div class="containersection4">
+                <div class="textleftsection4">
+                    <h2>Let's hear about Kayla's success story</h2>
+                    <p> See how well Alivio works in a real customer's life.</p>
+                    <button class="find" onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
+                        Let's get started</button>
+                </div>
+                <div class="kayla">
+                    <img src="./img/kayla.png" alt="Kayla is smiling">
+                </div>
             </div>
         </section>
 
@@ -125,38 +124,42 @@
 
         <!-- *********       SECTION 5 WE MAKE YOUR DIARY            ********** -->
         <section class="section5">
-            <div>
-
-                <!-- *********       BUST PHOTO OF MIKAYLA ON THE LEFT          ********** -->
-                <div>
-                    <img src="./img/bigwomanlongblondhair.png" alt="bust photo of Mikayla">
-                </div>
-
+            <div class="containersection5">
 
                 <!-- *********       CUSTOMIZED FOR MIKAYLA            ********** -->
-                <div>
-                    <p> Customized For</p>
+
+                <div class="busttext">
+                    <!-- *********       BUST PHOTO OF MIKAYLA ON THE LEFT          ********** -->
+                    <div class="bustmikayla">
+                        <img class="photobustmikayla" src="./img/bigwomanlongblondhair.jpg" alt="bust photo of Mikayla">
+                    </div>
+
+                    <!-- *********       TEXT ON THE RIGHT            ********** -->
+                    <div class="textontheright">
+                        <p>Our product</p>
+                        <h2>You tell us your stress, We make your diary</h2>
+                        <p class="textsection5">Everyone experiences it, and in different ways.<br>
+                            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <button class="find"
+                            onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
+                            Find Your Way</button>
+                    </div>
+                </div>
+                <div class="mikaylaprofil">
+                    <p class="textalign customized">Customized For</p>
+                    <p class="textalign">
+                        _____________
+                    </p>
                     <figure>
-                        <img src="./img/smallwomanlongblondhair.png" alt="Portrait photo of Mikayla">
-                        <figcaption>Mikayla</figcaption>
+                        <img class="photoportraitmikayla" src="./img/smallwomanlongblondhair.png"
+                            alt="Portrait photo of Mikayla">
+                        <figcaption class="textalign">Mikayla</figcaption>
                     </figure>
-                    <h4>Your custom contents</h4>
+                    <h4 class="textalign">Your custom contents</h4>
                     <ul>
                         <li>Understand Your Stress</li>
                         <li>Anger Management</li>
                     </ul>
-                </div>
-
-
-
-                <!-- *********       TEXT ON THE RIGHT            ********** -->
-                <div>
-                    <p>Our product</p>
-                    <h1>You tell us your stress, We make your diary</h1>
-                    <p>Everyone experiences it, and in different ways.
-                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-                    <button onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
-                        Find Your Way</button>
                 </div>
             </div>
         </section>
@@ -167,14 +170,17 @@
 
     <!-- *********       FOOTER            ********** -->
     <footer>
-        <h5>Alivio</h5>
-        <nav>
-            <a href="#section1">Why Alivio</a>
-            <a href="#section3">Solutions</a>
-            <a href="#section4">Community</a>
-            <a href="https://business.google.com/v/sokha-royal-spa-miromesnil/015596358167222917005/fe93/_?caid=10765711192&agid=105526760385&gclid=EAIaIQobChMI96_Svr2l7wIVxIjVCh0KGwqwEBAYASAAEgJBwfD_BwE&gclid=EAIaIQobChMI96_Svr2l7wIVxIjVCh0KGwqwEBAYASAAEgJBwfD_BwE"
-                target="_blank">Pricing</a>
-        </nav>
+        <div class="navfooter">
+            <h5>Alivio</h5>
+            <nav>
+
+                <a href="#section1">Why Alivio</a>
+                <a href="#section3">Solutions</a>
+                <a href="#section4">Community</a>
+                <a href="https://business.google.com/v/sokha-royal-spa-miromesnil/015596358167222917005/fe93/_?caid=10765711192&agid=105526760385&gclid=EAIaIQobChMI96_Svr2l7wIVxIjVCh0KGwqwEBAYASAAEgJBwfD_BwE&gclid=EAIaIQobChMI96_Svr2l7wIVxIjVCh0KGwqwEBAYASAAEgJBwfD_BwE"
+                    target="_blank">Pricing</a>
+            </nav>
+        </div>
     </footer>
 
 </body>
