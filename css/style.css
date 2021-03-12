@@ -1,6 +1,6 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    cursor: url('../img/Pointer.svg'),pointer;
+    cursor: url('../img/greencursor.png'),pointer;
 }
 
 *{
@@ -191,37 +191,58 @@ span{
 /* SECTION 5 WE MAKE YOUR DIARY */
 
 .containersection5{
-    display: flex;
+    position: relative;
     padding-top: 70px;
-    padding-left: 13%;
-    padding-bottom: 140px;
     padding-right: 5%;
+    padding-bottom: 140px;
+    padding-left: 13%;
     height: 700px;
 }
 
+    /* PHOTO BUST AND TEXT ON THE RIGHT */
 
-
-.photobustmikayla{
-    width: 100%;
+.busttext{
+    display: flex;
 }
 
+.photobustmikayla{
+    width: 89%;
+    border-radius: 12px;
+}
+
+
+_
+.textsection5{
+    font-size: 11px;
+    width: 90%;
+    height: 107px;
+    line-height: 21px;
+}
+
+.containersection5 h2{
+    font-size: 31px;
+    height: 109px;
+    line-height: 47px;
+    color: #01996d;
+}
+
+
+.containersection5 button{
+    margin-top: 35px;
+}
+
+
+
+        /* PROFIL */
+
 .mikaylaprofil{
-    width: 63%;
-    height: 273px;
-    margin-left: -31%;
-    margin-top: 296px;
+    position: absolute;
+    width: 25%;
+    height: 244px;
     box-shadow: 1px 1px 12px #aaa;
     border-radius: 3.72971px;
     background-color: white;
     line-height: 35px;
-}
-
-
-
-
-.photoportraitmikayla{
-    border-radius: 50px;
-    width: 21%;
 }
 
 .line{
@@ -234,47 +255,40 @@ span{
     text-align: center;
 }
 
+.photoportraitmikayla{
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 50px;
+    width: 9%;
+}
+
 .containersection5 ul{
     margin-left: 22%;
     font-size: 12px;
     line-height: 33px;
-
-}
-
-.photoportraitmikayla{
-    width: 17%;
-    background: rgba(1, 153, 109, 0.2);
-    clip-path: ellipse(50% 50%);
-}
-
-.containersection5 h2{
-    font-size: 31px;
-    height: 109px;
-    line-height: 47px;
-    color: #01996d;
 }
 
 
-
-.textsection5{
-    font-size: 11px;
-    width: 90%;
-    height: 107px;
-    line-height: 21px;
-}
 
 /* FOOTER */
 
 footer{
     height: 300px;
     background-color: #245852;
-
+padding-top: 40px;
+padding-left: 15%;
 }
+
 
 h5{
     color: white;
+    font-size: 14px;
+    line-height: 45px;
+    margin-left: 1%;
 }
 
-footer a{
+footer a{    
     color: white;
+    display: block;
+    font-size: 12px;
+    line-height: 33px;
 }
