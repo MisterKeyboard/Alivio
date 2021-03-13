@@ -49,30 +49,30 @@ header a{
 
 
 /* SECTION 1 BE AWARE MANAGE WELL */
-.section1{
+#section1{
     position: relative;
     background: url('../img/womanwithhandsonhead.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 558px;
+    height: 535px;
 }
 
 .containersection1{
 position: relative;
     top: 15%;
-    left: 7%;
+    margin-left:7%;
 }
 
 h1{
-    font-size: 36px;
+    font-size: 37px;
     width: 420px;
     height: 148px;
-    line-height: 50px;
+    line-height: 48px;
     color: #01996d;
 }
 
 .containersection1 p{
-    font-size: 11px;
+    font-size: 12px;
     width: 390px;
     height: 107px;
     line-height: 21px;
@@ -80,7 +80,6 @@ h1{
 
 .find{
     width: 140px;
-
     height:  40px;
 }
 
@@ -92,10 +91,11 @@ h1{
     display: flex;
     margin-left: 7%;
     margin-right: 7%;
+    padding-top: 33px;
 }
 
 .lefttext{
-    width:45% ;
+    width:45%;
 }
 
 .lefttext h2{
@@ -227,9 +227,6 @@ h1{
 
 
 
-
-
-
         /* PROFIL */
 
 .mikaylaprofil{
@@ -294,8 +291,8 @@ figcaption{
 footer{
     height: 300px;
     background-color: #245852;
-padding-top: 40px;
-padding-left: 15%;
+    padding-top: 40px;
+    padding-left: 15%;
 }
 
 
@@ -312,3 +309,76 @@ footer a{
     font-size: 12px;
     line-height: 33px;
 }
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
+
+
+/* media queries entre 900px et 950px */
+@media (min-width:900px) and (max-width:950px)
+{ 
+#section1{
+    height: 533px;
+}
+
+.containersection2 {
+    padding-top: 0px;
+    } 
+
+.containersection5 {
+    height: 522px;    
+}
+}
+/* media queries entre 819px et 900px */
+@media (min-width:819px) and (max-width:900px)
+{
+
+#section1{
+    height: 471px;
+}
+
+.containersection2 {
+    padding-top: 0px;
+    } 
+    
+.containersection5 {
+    height: 497px;   
+}
+}
+
+/* media queries entre 770px et 819px */
+@media (min-width:770px) and (max-width:819px)
+{header a{
+    padding-right: 14px;    
+}
+
+#section1 {
+    height: 431px;
+}
+
+.lefttext h2 {
+    height: 108px;
+}
+
+.textleftsection4 {
+    margin-right: -1%;
+}
+
+.containersection5 {
+    position: relative;
+    height: 468px;
+}
+
+.containersection5 h2 {
+    font-size: 29px;
+}
+}
+
+
+
