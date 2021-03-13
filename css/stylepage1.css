@@ -439,8 +439,8 @@ h1 {
 
 
 
-/* media queries entre 770px et 819px */
-@media (min-width:770px) and (max-width:819px)
+/* media queries entre 759px et 819px */
+@media (min-width:759px) and (max-width:819px)
 {/* HEADER */
 header a {
     padding-right: 8px;
@@ -505,10 +505,295 @@ h1 {
 }
 }
 
-/* media queries max 770px*/
-@media (max-width:770px){
-    body{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-    }
+
+
+
+
+
+
+/* media queries entre 673px et 759px */
+@media (min-width:673px) and (max-width:759px)
+{/* HEADER */
+
+header a {
+    padding-right: 12px;     
+    font-size: 12px;
+} 
+
+.start {
+    width: 85px;
+    height: 30px;
 }
+
+/* SECTION1 */
+#section1 {
+    position: relative; 
+    height: 346px;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 33px;
+    height: 79px;
+}
+
+.containersection1 p {
+    font-size: 8px;
+    height: 64px;
+    line-height: 16px;
+}
+
+.find {
+    width: 110px;
+    height: 31px;
+}
+
+
+/* SECTION2 */
+.lefttext h2 {
+    height: 122px;
+    font-size: 19px;
+    line-height: 33px;
+}
+
+.righttext {
+    font-size: 10px;
+    line-height: 19px;
+}
+
+
+/* SECTION3 */
+.containersection3 p {
+    font-size: 11px;
+    height: 170px;
+    line-height: 23px;
+}
+
+
+/* SECTION5 */
+.containersection5 {
+    height: 467px;
+}
+
+.containersection5 h2 {
+    font-size: 25px;
+    line-height: 38px;
+    height: 85px;
+}
+
+.textsection5 {
+    font-size: 10px;
+    width: 85%;
+    height: 78px;
+    line-height: 19px;
+}
+
+.mikaylaprofil {
+    height: 152px;
+}
+
+.mikaylaprofil h4 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.containersection5 ul {
+    font-size: 7px;
+    line-height: 18px;
+}
+}
+
+
+
+
+
+
+
+/* media queries entre 578px et 673px */
+@media (min-width:578px) and (max-width:673px)
+{/* HEADER */
+header a {
+    padding-right: 12px;     
+    font-size: 10px;
+} 
+
+.start {
+    width: 71px;
+    height: 19px;
+    margin-top: 5px;
+}
+
+
+/* SECTION1 */
+h1 {
+    font-size: 21px;
+    width: 420px;
+    height: 63px;
+    line-height: 26px;
+}
+
+.containersection1 p {
+    font-size: 7px;
+    width: 390px;
+    height: 48px;
+    line-height: 14px;
+}
+
+.find {
+    width: 102px;
+    height: 23px;
+}
+
+#section1 {
+    height: 300px;
+}
+
+
+/* SECTION2 */
+.containersection2 p {
+    font-size: 8px;
+    line-height: 15px;
+}
+
+.lefttext h2 {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+
+/* SECTION3 */
+.lefttext h2 {
+    height: 93px;
+}
+
+.containersection3 p {
+    font-size: 9px;
+    height: 155px;
+    line-height: 22px;
+    padding-top: 17px;
+}
+
+
+/* SECTION4 */
+.containersection4 {
+    padding: 32px;
+}
+
+.containersection4 p {
+    font-size: 8px;
+    line-height: 12px;
+    margin-top: 6px;
+    margin-bottom: 41px;
+}
+
+
+/* SECTION5 */
+.containersection5 h2 {
+    font-size: 21px;
+    height: 71px;
+    line-height: 30px;
+}
+
+.containersection5 P {
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.textsection5 {
+    height: 56px;
+}
+
+.customized {
+    margin-top: 4px;
+    margin-bottom: -5px;
+}
+
+.photoportraitmikayla {
+    margin-top: 6px;
+}
+
+.mikaylaprofil {
+    width: 20%;
+    height: 135px;
+}
+
+figcaption {
+    font-size: 10px;
+    line-height: 7px;
+    margin-bottom: 5px;
+}
+
+.mikaylaprofil h4 {
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.containersection5 ul {
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.containersection5 {
+    height: 411px;
+}
+/* FOOTER */
+footer {
+    height: 222px;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 45px;
+}
+
+footer a {
+    font-size: 11px;
+    line-height: 25px;
+}
+}
+
+
+
+
+
+
+
+/* media queries max (578px)*/
+@media (max-width:578px)
+{/* HEADER*/
+.containerheader{
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navleft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.navheader{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.headerright{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+/* SECTION1*/
+
+/* SECTION2*/
+
+/* SECTION3*/
+
+/* SECTION4*/
+
+/* SECTION5*/
+
+/* FOOTER*/

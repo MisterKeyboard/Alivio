@@ -36,13 +36,13 @@
     <section id="contact">
             <h2>WELCOME</h2>
             <form action="confirmation.html" id="form-contact">
-                <label for="nom">Nom<span class="required">*</span></label>
-                <input type="text" id="nom" name="nom" required autofocus>
-                <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="prenom">
+                <label for="lastname">Last Name<span class="required">*</span></label>
+                <input type="text" id="lastname" name="lastname" required autofocus>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname">
                 <label for="mail">E-mail<span class="required">*</span></label>
                 <input type="email" id="mail" name="Email" placeholder="@ " value="" required>
-                <textarea rows="4" cols="50" placeholder="Un petit mot...."></textarea>
+                <textarea rows="4" cols="50" placeholder="Explain your project"></textarea>
                 <button type="submit">Let's go</button>
             </form>
         </section>
