@@ -99,15 +99,21 @@ h1{
 }
 
 .lefttext h2{
-    font-size: 27px;
     height: 148px;
-    line-height: 40px;
+    font-size: 27px;
+    line-height: 43px;
     color: #01996d;
 }
 
 .righttext{
     width: 55%;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 22px;
 }
+
+
+
 
 /* SECTION 3 PERSONALIZE/WRITE AND UNDERSTAND/ALIVIO */
 
@@ -144,7 +150,6 @@ h1{
     padding-top: 33px;
 }
 
-
 .containersection3 h3{
     padding-left: 19%;
     margin-top: -36px;
@@ -158,6 +163,8 @@ h1{
 }
 
 
+
+
 /* SECTION 4 KAYLA'S STORY */
 .containersection4{
     display: flex;
@@ -166,11 +173,10 @@ h1{
 }
 
 .textleftsection4{
-    margin-right: 10%;
+    margin-right: 3%;
     margin-top: 40px;
     color: white;
 }
-
 
 .containersection4 h2{
     font-size: 27px;
@@ -213,8 +219,8 @@ h1{
 }
 
 .textsection5{
-    font-size: 11px;
-    width: 90%;
+    font-size: 13px;
+    width: 85%;
     height: 107px;
     line-height: 21px;
 }
@@ -229,7 +235,6 @@ h1{
 
 
         /* PROFIL */
-
 .mikaylaprofil{
     position: absolute;
     width: 17%;
@@ -255,7 +260,6 @@ h1{
     font-size: 9px;
     line-height: 3px;
 }
-
 
 .textalign{
     text-align:center;
@@ -287,8 +291,8 @@ figcaption{
 
 
 
-/* FOOTER */
 
+/* FOOTER */
 footer{
     height: 300px;
     background-color: #245852;
@@ -296,10 +300,9 @@ footer{
     padding-left: 15%;
 }
 
-
 h5{
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 45px;
     margin-left: 1%;
 }
@@ -307,9 +310,17 @@ h5{
 footer a{    
     color: white;
     display: block;
-    font-size: 12px;
-    line-height: 33px;
+    font-size: 14px;
+    line-height: 41px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -321,7 +332,7 @@ footer a{
 /* MEDIA QUERIES*/
 /* media queries entre 950px et 1000px */
 @media (min-width:950px) and (max-width:1000px)
-{ 
+{ /* SECTION1*/
 #section1{
     height: 533px;
 }
@@ -344,66 +355,154 @@ h1 {
 
 /* media queries entre 900px et 950px */
 @media (min-width:900px) and (max-width:950px)
-{ 
-#section1{
-    height: 533px;
+{/* SECTION1*/
+#section1 {
+    height: 484px;
+}
+
+h1 {
+    font-size: 33px;
+    line-height: 45px;
+}
+
+.containersection1 p {
+    font-size: 11px;
+}
+
+/* SECTION5*/
+.textsection5 {
+    font-size: 12px;
+    width: 97%;
+    line-height: 21px;
+}
 }
 
 
 
-
-.containersection2 {
-    padding-top: 0px;
-    } 
-
-.containersection5 {
-    height: 522px;    
-}
-}
 /* media queries entre 819px et 900px */
 @media (min-width:819px) and (max-width:900px)
-{
-
-#section1{
-    height: 471px;
+{/* HEADER*/
+.header a {
+    padding-right: 19px;
 }
 
-.containersection2 {
-    padding-top: 0px;
-    } 
-    
-.containersection5 {
-    height: 497px;   
+
+/* SECTION1*/
+#section1 {
+    height: 428px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+    height: 96px;
+}
+
+.containersection1 p {
+    font-size: 10px;
+    height: 95px;
+    line-height: 21px;
+}
+
+
+/* SECTION2*/
+.lefttext h2 {
+    font-size: 25px;
+    line-height: 39px;
+}
+
+.righttext {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+
+/* SECTION3*/
+.containersection3 p {
+    font-size: 14px;
+}
+
+
+/* SECTION5*/
+.containersection5 h2 {
+    font-size: 30px;
+}
+
+.textsection5 {
+    width: 90%;
+}
+
+.mikaylaprofil {
+    width: 18%;
 }
 }
+
+
 
 /* media queries entre 770px et 819px */
 @media (min-width:770px) and (max-width:819px)
-{header a{
-    padding-right: 14px;    
+{/* HEADER */
+header a {
+    padding-right: 8px;
+}
+
+
+/* SECTION1 */
+h1 {
+    font-size: 27px;
+    line-height: 36px;
+    height: 90px;
+}
+
+.containersection1 p {
+    font-size: 9px;
+    line-height: 18px;
+    height: 85px;
 }
 
 #section1 {
-    height: 431px;
+    height: 402px;
 }
 
+
+/* SECTION2 */
 .lefttext h2 {
-    height: 108px;
+    font-size: 24px;
+    line-height: 43px;
 }
 
-.textleftsection4 {
-    margin-right: -1%;
+.righttext {
+    font-size: 13px;
+    line-height: 22px;
 }
 
-.containersection5 {
-    position: relative;
-    height: 468px;
+
+
+/* SECTION3 */
+.containersection3 p {
+    font-size: 12px;
+}
+
+
+/* SECTION4 */
+.containersection4 img {
+    width: 108%;
+}
+
+
+/* SECTION5 */
+.photobustmikayla {
+    width: 48%;
 }
 
 .containersection5 h2 {
-    font-size: 29px;
-}
+    font-size: 26px;
+    line-height: 41px;
 }
 
+.textsection5 {
+    width: 94%;
+}
+}
 
 
