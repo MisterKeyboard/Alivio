@@ -200,15 +200,16 @@ h1{
     /* PHOTO BUST AND TEXT ON THE RIGHT */
 
 .busttext{
-    display: flex;
     padding-top: 100px;
     padding-right: 5%;
     padding-left: 10%;
 }
 
 .photobustmikayla{
-    width: 89%;
+    float: left;
+    width: 44%;
     border-radius: 12px;
+    margin-right: 5%;
 }
 
 .textsection5{
@@ -231,14 +232,14 @@ h1{
 
 .mikaylaprofil{
     position: absolute;
-    width: 19%;
+    width: 17%;
     height: 173px;
     box-shadow: 1px 1px 12px #aaa;
     border-radius: 3.72971px;
     background-color: white;
     line-height: 35px;
-    margin-top: -122px;
-    margin-left: 4%;
+    margin-top: -37px;
+    margin-left:5%;
 }
 
 .mikaylaprofil span{
@@ -247,7 +248,7 @@ h1{
 
 .customized{
     margin-top: 11px;
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .mikaylaprofil p{
@@ -263,7 +264,7 @@ margin-bottom: 5px;
 .photoportraitmikayla{
     background: rgba(1, 153, 109, 0.2);
     border-radius: 50px;
-    width: 18%;
+    width: 20%;
     margin-left: 41%;
     margin-top: 10px;
 }
@@ -318,6 +319,27 @@ footer a{
 
 
 /* MEDIA QUERIES*/
+/* media queries entre 950px et 1000px */
+@media (min-width:950px) and (max-width:1000px)
+{ 
+#section1{
+    height: 533px;
+}
+
+h1 {
+    font-size: 32px;
+    height: 125px;
+}
+
+.containersection1 p {
+    font-size: 11px;
+}
+}
+
+
+
+
+
 
 
 /* media queries entre 900px et 950px */
@@ -326,6 +348,9 @@ footer a{
 #section1{
     height: 533px;
 }
+
+
+
 
 .containersection2 {
     padding-top: 0px;
