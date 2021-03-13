@@ -505,4 +505,10 @@ h1 {
 }
 }
 
-
+/* media queries max 770px*/
+@media (max-width:770px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}

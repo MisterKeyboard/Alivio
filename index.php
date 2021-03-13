@@ -33,8 +33,19 @@
         </div>
     </header>
 
-    <section>       
-    </section>
+    <section id="contact">
+            <h2>WELCOME</h2>
+            <form action="confirmation.html" id="form-contact">
+                <label for="nom">Nom<span class="required">*</span></label>
+                <input type="text" id="nom" name="nom" required autofocus>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom">
+                <label for="mail">E-mail<span class="required">*</span></label>
+                <input type="email" id="mail" name="Email" placeholder="@ " value="" required>
+                <textarea rows="4" cols="50" placeholder="Un petit mot...."></textarea>
+                <button type="submit">Let's go</button>
+            </form>
+        </section>
 
 
 
