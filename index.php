@@ -25,45 +25,36 @@
                     target="_blank">Pricing</a>
             </nav>
 
-            <div class="headerright">
-                <a href="#section8">Sign in </a>
-                <button class="start" onclick="window.location.href ='https://www.youtube.com/watch?v=k11Fy54HBoI';">
-                    Start Trial</button>
-            </div>
         </div>
     </header>
 
+
     <section id="contact">
-            <h2>WELCOME</h2>
-            <form action="confirmation.html" id="form-contact">
-                <label for="lastname">Last Name<span class="required">*</span></label>
-                <input type="text" id="lastname" name="lastname" required autofocus>
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" name="firstname">
-                <label for="mail">E-mail<span class="required">*</span></label>
-                <input type="email" id="mail" name="Email" placeholder="@ " value="" required>
-                <textarea rows="4" cols="50" placeholder="Explain your project"></textarea>
-                <button type="submit">Let's go</button>
-            </form>
-        </section>
-
-
-
-
-
-    <!-- *********       FOOTER            ********** -->
-    <footer>
-        <div class="navfooter">
-            <h5>Alivio</h5>
-            <nav>
-
-                <a href="#section1">Why Alivio</a>
-                <a href="#section3">Solutions</a>
-                <a href="#section4">Community</a>
-                <a href="https://business.google.com/v/sokha-royal-spa-miromesnil/015596358167222917005/fe93/_?caid=10765711192&agid=105526760385&gclid=EAIaIQobChMI96_Svr2l7wIVxIjVCh0KGwqwEBAYASAAEgJBwfD_BwE&gclid=EAIaIQobChMI96_Svr2l7wIVxIjVCh0KGwqwEBAYASAAEgJBwfD_BwE"
-                    target="_blank">Pricing</a>
-            </nav>
+        <div>
+            <img class="womanhands" src="./img/womanwithhandsonhead.jpg" alt="welcome">
         </div>
-    </footer>
 
-</body>
+        <h1>WELCOME</h1>
+        <form method="POST" action="index.php" id="form-contact">
+            <label for="lastname">Last Name<span class="required">*</span></label>
+            <input type="text" id="lastname" name="lastname" required autofocus>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname">
+            <label for="mail">E-mail<span class="required">*</span></label>
+            <input type="email" id="mail" name="Email" placeholder="  @ " value="" required>
+            <label for="yourstress">Tell us your stress<span class="required">*</span></label>
+            <textarea rows="15" placeholder="Tell us your stress"></textarea>
+            <button type="submit">Contact me</button>
+        </form>
+    </section>
+
+
+
+
+
+
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST'){
+    if ( empty($_POST['firstnumber']) or empty($_POST['secondnumber']) or empty($_POST['operator'])){
+        echo "veuillez remplir le formulaire"

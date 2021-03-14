@@ -1,0 +1,92 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: url('../img/greencursor.png'),pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 96px;
+    background: #01996d;
+    border:1px solid #01996d;
+    border-radius: 4px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.containerheader{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:white;
+    padding:10px 60px;
+}
+
+header a{
+    padding-right: 25px;
+    color:#292929;
+    ;
+}
+
+
+
+
+
+
+
+/* BODY */
+#contact{
+    height: 691px;
+}
+
+.womanhands{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-left: 6%;
+    color:#01996d;
+    margin-bottom: 30px;
+}
+
+form{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+
+input , textarea{
+    width: 80%;
+    display: block;
+    border:4px solid #01996d;
+    margin-top: 10px;
+}
+
+input{
+    width: 40%;
+
+}
+
+textarea{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
+/* media queries moins de 401px */

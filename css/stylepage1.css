@@ -1090,14 +1090,16 @@ h1{
     line-height: 35px;
     font-size: 18px;
 }
+
 .righttext{
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-/* SECTION3*/
 
+
+/* SECTION3*/
 .containersection3{
     height: 2100px;
     font-size: 12px;
@@ -1166,7 +1168,6 @@ h1{
     grid-row-start: 2;
     grid-row-end: 3;
 }
-
 
 .containersection4 h2 {
     line-height: 31px;
