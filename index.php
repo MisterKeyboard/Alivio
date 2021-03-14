@@ -17,9 +17,8 @@ function filter_email_header($form_field) {
 
 #Send email
 
-$headers = "From: $emailperso";
-$emailperso="antoine.clavier@hotmail.fr";
-$sent = mail('antoine.clavier@hotmail.fr', 'Feedback', $yourstress, $headers) ;
+$headers = "From: $email";
+$sent = mail('Feedback', $yourstress, $headers) ;
 
 #Thank user or notify them of a problem
 if ($sent) {
